@@ -1,0 +1,78 @@
+body{
+    background-color: whitesmoke;
+}
+.header{
+    color:white;
+    height: 100%;
+    width: 100%;
+    background-image: url("images/art.jpeg");
+    background-size: cover;
+    background-blend-mode:normal;
+    background-position: center;
+    background-color: #E5E8B6;
+    align-content: center;
+    border-radius: 20%;
+}
+h1{
+    font-size: 400%;
+    text-align: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    padding-top: 30px;
+    font-family: "Lucida Console", "Monaco", "Brush Script MT";
+}
+h2{
+    font-size: 170%;
+    text-align: center;
+    font-weight: 10px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-family: "Lucida Console", "Monaco", "Brush Script MT";
+}
+.bar{
+    display: flex;
+}
+.left-bar{
+    width: 50%;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.right-bar{
+    width: 50%;
+    float: right;
+    font-display: center;
+    padding: 4px;
+}
+img.right-img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 20%;
+}
+footer{
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 10px;
+}
+
+button.signup{
+    height:100%;
+    width: 40%;
+    background-color: royalblue;
+    border: none;
+    border-radius: 9px;
+    font-size: 20px;
+    padding: 3px;
+    
+    color: whitesmoke
+}
+button.signup:hover{
+    background-color: lightskyblue;
+
+}
